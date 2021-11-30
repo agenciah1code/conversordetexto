@@ -2,7 +2,7 @@
 
 Projeto criado para aprofudar o conhecimento e estudos em JavaScript.
 
-![GitHub](https://img.shields.io/github/license/agenciah1code/conversordetexto)
+[![GitHub](https://img.shields.io/github/license/agenciah1code/conversordetexto)](https://img.shields.io/github/license/agenciah1code/conversordetexto)
 
 ## Tecnologias Utilizadas
 
