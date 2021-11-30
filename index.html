@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+		<title>Conversor de Textos</title>
+	</head>
+	<body>
+        <section class="principal">
+            <form>
+                <label for="texto"><h3>Digite o texto abaixo:</h3></label>
+                <textarea name="texto" id="texto" placeholder="Insira o texto que deseja converter"></textarea><br>
+                <button id="minuscula">minúscula</button>
+                <button id=maiuscula>MAIÚSCULA</button>
+                <button onclick="resetarTexto()">Resetar</button>
+            </form>
+            <form>
+                <br>
+                <label for="convertido"><h3>Texto convertido:</h3></label>
+                <textarea name="convertido" id="convertido"></textarea> <br>
+                <button onclick="copiarTexto()" id="copiar">Copiar Texto</button>
+                <button onclick="resetarTexto()">Resetar</button>
+            </form>
+
+        </section>
+		<script src="script.js"></script>
+	</body>
+</html>
