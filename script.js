@@ -1,6 +1,5 @@
 ﻿function textoMinusculo() {
 	event.preventDefault();
-	resetarTexto();
 	const pegarTexto = document.querySelector('textarea').value;
 	document.querySelector('#convertido').innerHTML = pegarTexto.toLowerCase();
 }
@@ -9,6 +8,15 @@ function textoMaiusculo() {
 	event.preventDefault();
 	const pegarTexto = document.querySelector('textarea').value;
 	document.querySelector('#convertido').innerHTML = pegarTexto.toUpperCase();
+}
+
+function primeirasMaiusculas() {
+	event.preventDefault();
+	const pegarTexto = document.querySelector('textarea').value;
+	var subst = pegarTexto.toLowerCase().replace(/(?:^|\s)\S/g, function (a) {
+		return a.toUpperCase();
+	});
+	document.querySelector('#convertido').innerHTML = subst;
 }
 
 function copiarTexto() {
@@ -23,7 +31,7 @@ function resetarTexto() {
 	const limpar = document.querySelectorAll('textarea');
 	limpar.forEach((item) => {
 		item.innerHTML = '';
-    });
+	});
 }
 
 const minuscula = document.querySelector('#minuscula');
