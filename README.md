@@ -2,7 +2,7 @@
 
 Projeto criado para aprofudar o conhecimento e estudos em JavaScript.
 
-[![GitHub license](https://img.shields.io/github/license/agenciah1code/conversordetexto.svg)](https://github.com/agenciah1code/conversordetexto/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/mariopaglia/conversordetexto.svg)](https://github.com/mariopaglia/conversordetexto/blob/master/LICENSE)
 
 ## Tecnologias Utilizadas
 
@@ -10,8 +10,8 @@ HTML, CSS e JavaScript
 
 ## Utilizar a Ferramenta
 
-Para utilizar a ferramenta basta clicar no link à seguir: [Conversor de Texto](https://agenciah1code.github.io/conversordetexto/)
+Para utilizar a ferramenta basta clicar no link à seguir: [Conversor de Texto](https://mariopaglia.github.io/conversordetexto/)
 
 ## Autor/Contato
 
-- [@agenciah1code](https://www.github.com/agenciah1code)
+- [@mariopaglia](https://www.github.com/mariopaglia)
